@@ -87,6 +87,8 @@
             </div>
         </div>
 
+
+        
         <!-------------------recent----------------->
         <div  id="recent-activities">
                 <div class="main-title"><h1>FLAGSHIP EVENTS</h1>
@@ -152,7 +154,7 @@
                         </div>
                     </div>
                     <div class="sig-image img-web  wow bounceIn animated" data-wow-delay="1.0s" style="visibility: visible; animation-delay: 0.4s; animation-name: bounceIn;">
-                        <div class="title"><h1>WEB DESIGN</h1></div>
+                        <div class="title"><h1>WEB DEVELOPMENT</h1></div>
                         <div class="s-descrip">
                             The web design SIG was started in April 2017. This is the web tweaking pavilion of IEEE UVCE. Web team specializes in conducting
                             all the web related competitions and workshops for IEEE UVCE. Workshops on HTML and CSS and contests on website front end
@@ -193,6 +195,49 @@
                     
                 
                 </div>
+            </div>
+
+            <div class="gallery">
+                <button onclick="galleryon()">Gallery</button>
+                
+            </div>
+            
+            <div id="gallerydisplay">
+                    <i class="fa fa-times fa-4x off" aria-hidden="true" style="color: white;" onclick="galleryoff()"></i>
+                    <div class="gallery-images">
+                    <div class="col">
+                        <img src="images/gallery/5.jpg" class="wow bounceIn animated">
+                        <img src="images/gallery/2.jpg" class="wow bounceIn animated">
+                        <img src="images/gallery/3.jpg" class="wow bounceIn animated">
+                        <img src="images/gallery/4.jpg" class="wow bounceIn animated">
+                        <img src="images/gallery/5.jpg" class="wow bounceIn animated">
+                        <img src="images/gallery/6.jpg" class="wow bounceIn animated">
+                    </div>
+                    <div class="col">
+                        <img src="images/gallery/7.jpg" class="wow bounceIn animated">
+                        <img src="images/gallery/8.jpg" class="wow bounceIn animated">
+                        <img src="images/gallery/9.jpg" class="wow bounceIn animated">
+                        <img src="images/gallery/10.jpg" class="wow bounceIn animated">
+                        <img src="images/gallery/11.jpg" class="wow bounceIn animated">
+                        <img src="images/gallery/12.jpg" class="wow bounceIn animated">
+                    </div>
+                    <div class="col">
+                        <img src="images/gallery/13.jpg" class="wow bounceIn animated">
+                        <img src="images/gallery/14.jpg" class="wow bounceIn animated">
+                        <img src="images/gallery/15.jpg" class="wow bounceIn animated">
+                        <img src="images/gallery/16.jpg" class="wow bounceIn animated">
+                        <img src="images/gallery/17.jpg" class="wow bounceIn animated">
+                        <img src="images/gallery/18.jpg" class="wow bounceIn animated">
+                    </div>
+                    <div class="col">
+                        <img src="images/gallery/19.jpg" class="wow bounceIn animated">
+                        <img src="images/gallery/20.jpg" class="wow bounceIn animated">
+                        <img src="images/gallery/21.jpg" class="wow bounceIn animated">
+                        <img src="images/gallery/22.jpg" class="wow bounceIn animated">
+                        <img src="images/gallery/23.jpg" class="wow bounceIn animated">
+                        <img src="images/gallery/24.jpg" class="wow bounceIn animated">
+                    </div>
+                    </div>
             </div>
 
             <!----------------------fests---------------->
@@ -355,7 +400,7 @@
             </div>
             <br>
             <p style="color: rgba(190, 190, 190, 0.644)">
-                <a href="mailto:shraonedhar@gmail.com" target = "_blank">
+                <a href="mailto:ruchithgauravmrg@gmail.com" target = "_blank">
                     <i class="fa fa-user"></i> Web Administrator: Ruchith Gaurav K M</a>
             </p>
             <br>
@@ -758,7 +803,7 @@ anime.timeline({loop: true})
        <script type="text/javascript">
        
        $("#topnav").hide(); $("#ieeeimage").hide(); $("#recent-activities").hide(); $("#sig-box").hide();
-       $("#fest-box").hide(); $("#awards-box").hide(); $("#teachers").hide();$("#foot").hide(); 
+       $("#fest-box").hide(); $("#awards-box").hide(); $("#teachers").hide();$("#foot").hide();$(".gallery").hide();
        
           $(document).ready(function(){
        
@@ -772,16 +817,17 @@ anime.timeline({loop: true})
                
           })
           $(document).ready( () => { $(".svg-wrapper").click( () => { $('.front-page').fadeOut();$('.front-page').fadeOut("slow");$('.front-page').fadeOut(2000);setTimeout( () => { $("#members").css("animation", "reverseAppear 0.7s ease-in 0s"); $("#members").css("display", "none");
-          $("#topnav").show(); $("#ieeeimage").show(); $("#sig-box").show(); $("#fest-box").show(); $("#awards-box").show(); $("#teachers").show();$("#foot").show();$("#recent-activities").show();
+          $("#topnav").show(); $("#ieeeimage").show(); $("#sig-box").show(); $("#fest-box").show(); $("#awards-box").show(); $("#teachers").show();$("#foot").show();$("#recent-activities").show();$(".gallery").show();
            $("#foot").show(); new
     WOW().init(); }, 500); }); });        
-          function membersAppear(){ $("#topnav").hide(); $("#ieeeimage").hide(); $("#recent-activities").hide(); $("#sig-box").hide();$('.front-page').hide();
+          function membersAppear(){ $("#topnav").hide(); $("#ieeeimage").hide(); $("#recent-activities").hide(); $("#sig-box").hide();$('.front-page').hide();$(".gallery").hide();
            $("#fest-box").hide(); $("#awards-box").hide(); $("#teachers").hide();$("#foot").hide(); $("#members").css("display", "block"); $("#members").css("animation", "appear 1s ease-in 0s"); }
        
            function membersHide() { $("#members").css("animation", "reverseAppear 0.7s ease-in 0s"); $("#members").css("display", "none");$('.front-page').hide();
            $("#topnav").show(); $("#ieeeimage").show(); $("#sig-box").show(); $("#fest-box").show(); $("#awards-box").show(); $("#teachers").show();$("#foot").show();$("#recent-activities").show();
-           $("#foot").show(); }
+           $("#foot").show();$(".gallery").show(); }
 
+           
            
            </script>
            <script>
@@ -803,6 +849,15 @@ anime.timeline({loop: true})
             event.preventDefault();
       });
     });  
+           </script>
+           <script>
+               function galleryon(){
+                    document.getElementById("gallerydisplay").style.display="block";
+               }
+
+               function galleryoff(){
+                    document.getElementById("gallerydisplay").style.display="none";
+               }
            </script>
            
        
