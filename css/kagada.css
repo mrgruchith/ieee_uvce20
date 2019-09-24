@@ -173,7 +173,7 @@ html,body{
     background-color: white;
     font-family: 'Cormorant Garamond',Calibri,'Trebuchet MS',sans-serif;
     font-weight: bold;
-    width: 150px;
+    width: 200px;
     height: 190px;
     font-size: 28px;
     margin: 0%;
@@ -189,7 +189,7 @@ html,body{
     'Trebuchet MS',
     sans-serif;
     font-size: 24px;
-    width: 150px;
+    width: 200px;
     margin: 0%;
     text-align: center;
     font-weight: bold;
@@ -719,6 +719,6 @@ div.sticky h2{
         font-size: 1.5rem;
     }
     .kagada2018{
-        width: 90%;
+        width: 100%;
     }
   }
