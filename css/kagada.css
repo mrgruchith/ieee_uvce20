@@ -216,6 +216,7 @@ html,body{
 .topicdiv {
     background: rgb(255, 117, 37);
     margin: 5% 5%;
+    z-index: 6;
 }
 .topicdiv h1 {
     text-align: center;
