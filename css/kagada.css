@@ -1,0 +1,723 @@
+
+html,body{
+    font-family: "Lato", sans-serif;
+    background-color: black;
+    background: black;
+  }
+/*----------------------------------------------*/
+  
+  #mySidebar {
+    height: 100%;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    background-color:black;
+    text-align: center;
+    transition: 0.5s;
+    display: flex;
+    overflow: hidden;
+    /*background=color : linear-gradient(to left, white 200px, black 100%;*/4
+
+    
+  }
+  
+  #mySidebar a {
+    text-align: center;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.3s;
+    
+    
+  }
+ 
+  #mySidebar a:hover {
+    background-color: white;
+    color: #f15b15;
+  }
+  
+  
+  #mySidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color:white;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #f15b15;
+    color: white;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+    margin-left: 200px;
+  }
+
+  /*(-----------------------------)*/
+  #content-des .close2 i{
+      color: white;
+      top:0%;
+      right: 80%;
+  }
+ 
+  /****88*********************************************************************************************************************/
+  .s-kagada{
+      overflow: hidden;
+      
+  }
+  .kagadacontent{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index:1;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+  }
+
+  .s-kagada:hover .kagadacontent{
+    display: block;
+  }
+  /*--------------------------------------------------------------------------------------------------------------------------------------*/
+  .content-des {
+      text-align: center;
+      width: 100%;
+  }
+  /*----------------------------------*/
+  .kagada{
+    background-image: url("../images/back/back.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    padding: 30px;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: -1% 0%;
+    height: 500px;
+  }
+
+  .kagada-title{
+      font-style: bold;
+      
+  }
+
+  .kagada-content{
+      background-color: rgba(255, 0, 0, 0.698);
+      height: fit-content;
+      border-radius: 20px;
+  }
+  /*-----------------------------------------------------------------------*/
+  .kagada2018{
+    /*background: rgb(255, 117, 37);*/
+
+    z-index: 2;
+}
+.kagada2018 .k-title h1{
+    background-color: rgb(255, 117, 37);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.kagada2018 h1 {
+  
+    text-align: center;
+    align-content: center;
+    color: black;
+    font-size: 300%;
+    font-family: 'Cormorant Garamond',Calibri,'Trebuchet MS',sans-serif;
+    display: block;
+    margin: 0%;
+    padding: 2%;
+    background: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(260, 260, 260, 0.85) 50%, rgba(0, 0, 0, 0) 100%);
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(260, 260, 260, 0.85) 50%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(260, 260, 260, 0.85) 50%, rgba(0, 0, 0, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000', GradientType=0);
+}
+.home2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    align-content: center;
+    padding: 2%;
+    width: 100%;
+}
+
+.home2 .card1{
+  padding: 20px;
+    display: block;
+    align-content: center;
+    justify-content: center;
+
+}
+.home2 .cardhead{
+    color: black;
+    background-color: white;
+    font-family: 'Cormorant Garamond',Calibri,'Trebuchet MS',sans-serif;
+    font-weight: bold;
+    width: 200px;
+    height: 190px;
+    font-size: 28px;
+    margin: 0%;
+    align-content: center;
+    text-align: center;
+    padding: 20px;
+}
+.home2 .cardpart {
+    color: white;
+    background-color : #f15b15;
+    font-family: 'Cormorant Garamond',
+    Calibri,
+    'Trebuchet MS',
+    sans-serif;
+    font-size: 24px;
+    width: 200px;
+    margin: 0%;
+    text-align: center;
+    font-weight: bold;
+    height: 200px;
+    
+}
+.cardimg1{background-image: url(../img/back/ug1.JPG);}
+.cardimg2{background-image: url(../img/back/pg1.JPG);}
+.cardimg3{background-image: url(../img/back/wie.JPG);}
+.cardimg4{ background-image: url(../img/back/project.JPG);}
+.cardimg5{background-image: url(../img/back/poster.JPG);}
+.cardimg{
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+    margin: 0%;
+    padding: 20px;
+
+}
+/*-----------------------------------------------------------------------------------------------------------*/
+.topicdiv {
+    background: rgb(255, 117, 37);
+    margin: 5% 5%;
+}
+.topicdiv h1 {
+    text-align: center;
+    align-content: center;
+    color: black;
+    font-size: 300%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    display: block;
+    margin: 2% 2% 0% 2%;
+    padding: 2%;
+    background: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(260, 260, 260, 0.85) 50%, rgba(0, 0, 0, 0) 100%);
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(260, 260, 260, 0.85) 50%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(260, 260, 260, 0.85) 50%, rgba(0, 0, 0, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000', GradientType=0);
+}
+.topicdiv h2 {
+    text-align: center;
+    align-content: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Cormorant Garamond',
+    Calibri,
+    'Trebuchet MS',
+    sans-serif;
+    display: block;
+    margin: 0;
+    padding: 2%;
+}
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 150%;
+    border: none;
+    cursor: pointer;
+    border-bottom: 2px solid white;
+
+}
+.dropbtn:hover, .dropbtn:focus {
+    background-color : #f15b15;
+}
+.dropdown {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 3;
+    width: auto;
+    text-align: center;
+    justify-content: center;
+
+}
+.dropdown-content p {
+    color: black;
+    padding: 1% 2%;
+    margin: 0;
+    text-decoration: none;
+    display: block;
+    font-size: 100%;
+}
+
+.dropdown-content p:hover {
+    background-color: #ddd
+}
+.show {
+    display: block;
+}
+  /*----------------------------------------------------------------------------------------------------------------------------------------*/
+  .galleryhead{
+    margin:3%;
+    font-family: 'Garamond',
+    'Trebuchet MS',Calibri,
+    sans-serif;
+    text-align: center;
+    color: black;
+
+    align-content: center;
+    padding: 4px;
+    font-size: 30px;
+    background: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(260, 260, 260, 0.85) 50%, rgba(0, 0, 0, 0) 100%);
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(260, 260, 260, 0.85) 50%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(260, 260, 260, 0.85) 50%, rgba(0, 0, 0, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000', GradientType=0);
+}
+.galleryhead h1{
+    font-weight: bold;
+}
+.galleryheadcolor{
+    background-color: #f15b15;
+}
+.gallery1{
+
+    background: black;
+    margin: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.gallery img{
+    border: 2px solid #fff;
+
+}
+div.gallery {
+    margin: 1%;
+    padding: 0% 4%;
+    width: 60vh;
+    opacity: 0.8;
+}
+
+div.gallery:hover {
+    width: 80vh;
+    opacity: 1;
+    transition-duration: 500ms;
+}
+
+div.gallery img {
+    width: 120%;
+    height: 90%;
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+
+.sponsorship{
+    
+    margin: 2% 0%;
+    opacity: 1;
+
+  }
+  .sponsorship .s-title{
+      background-color: #f15b15;
+  }
+  .spon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  }
+  .spon img{
+    margin: 2%;
+    background-color: white;
+  }
+  .sponsorship h1{
+    text-align: center;
+    color: black;
+    font-size: 300%;
+    font-family: 'Cormorant Garamond',Calibri,'Trebuchet MS',sans-serif;
+    display: block;
+    margin: 2% 2% 2% 2%;
+    padding: 1%;
+    background: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(260, 260, 260, 0.85) 50%, rgba(0, 0, 0, 0) 100%);
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(260, 260, 260, 0.85) 50%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(260, 260, 260, 0.85) 50%, rgba(0, 0, 0, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000', GradientType=0);
+  
+  }
+  
+  /*----------------------------------------------------------------------------------------------------------------------------------------*/
+  hr{
+    max-width: 80vw;
+}
+.kagadahead{
+    animation-fill-mode: both;
+}
+.kagada-head{background-color:#f15b15 }
+.kagadahead h3{
+    font-size: 8vh;
+    text-align: center;
+    color: black!important;
+    text-align: center;
+    font-family: 'Garamond',
+    'Trebuchet MS',Calibri,
+    sans-serif;
+    font-weight: bold;
+    background: -moz-linear-gradient(left, #f15b15 0%, white 50%, #f15b15 100%);
+    background: -webkit-linear-gradient(left, #f15b15 0%, white 50%, #f15b15 100%);
+    background: linear-gradient(left, #f15b15 0%, white 50%, #f15b15 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000', GradientType=0);
+    padding: 20px;
+}
+.home1{
+    background-image: url("../img/back/1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: -1% 0% 4%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    
+}
+.home1 .left1, .home1 .right1{
+    padding: 6%;
+}
+.home1 .left1 {
+    color: white;
+    font-family: 'Cormorant Garamond',
+    Calibri,
+    'Trebuchet MS',
+    sans-serif;
+    font-size: 10vh;
+    margin: 4%;
+    margin-top: -5%;
+    max-height: 250px;
+    text-align: center;
+    align-content: center;
+    justify-content: space-evenly;
+    display: block;
+    font-style: bold;
+}
+.home1 .left1 h1{
+    font-size: 12vh;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding-top: 40px;
+    color:whitesmoke;
+    
+}
+
+.left1 h1:hover {
+    /* background-color: #f15b15; */
+    color: white;
+    /* padding: 5px; */
+    border-radius: 5px;
+
+}
+.home1 .right1{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 0.93;
+    /* margin-top: -3%; */
+    text-align: justify;
+    width: 60ch;
+    border: 1px solid;
+    border-color: #f15b15;
+    background-color: #f15b15;
+    border-radius: 10px;
+    margin: 4% 2%;
+    margin-bottom: 0%;
+    padding: 20px;
+    left: 500px;
+
+}
+.right1{
+    float: right;
+}
+
+
+/* dates */
+
+/* where */
+
+.where h1 {
+    font-size: 10vh;
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 4% auto ;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.dates {
+    font-family: 'Cormorant Garamond', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 5vh;
+    color: rgb(190, 220, 240);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin: -2% auto 5%;
+    text-align: center;
+}
+.dates h3 {
+    margin: 1% auto;
+}
+
+div.sticky{
+    font-family: 'Cormorant Garamond',Calibri,'Trebuchet MS',sans-serif;
+    font-size: 10px;
+    text-align: center;
+    color: rgb(252, 173, 128);
+    position: sticky;
+    margin: -2% -2%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    z-index: 2;
+    padding: 1px;
+    
+}
+div.sticky h2{
+    font-size: 9vh;
+    font-weight: bold;
+}
+
+
+
+
+/* coming soon */
+.comingsoon{
+    box-shadow: white;
+}
+.comingsoon img{
+    margin: 3% 22%;
+    /* padding: 10px; */
+    
+    /* width: 100px; */
+    opacity: 0.8;
+
+}
+.comingsoon img:hover{
+    opacity: 1;
+    /* margin: 3% 2.5%; */
+    /* width:95%; */
+    transition-duration: 250ms;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+.details, .details h1{
+    width: 100%;
+    text-align: center;
+  }
+
+  .dates
+  {
+    text-align: center;
+  }
+  /*-----------------------------------------*/
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+.numbers{
+    margin: 0% 5%;
+    padding: 5px 50px;
+    color: white;
+    /* width: 100%; */
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f15b15;
+    border-radius: 5px;
+}
+
+.finalfoot{
+    font-family: 'Courier New', Courier, monospace;
+    z-index: 5 ;
+    padding: 1px 10px;
+    margin: 1% 0%;
+    color: #ddd;
+    font-weight: bold;
+    position: relative;
+    background-color: #f15b15;
+    text-align: center;
+}
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+.sidenavcontent{
+    position: fixed;
+    margin-left: 200px;
+    background-color: #fff;
+    width: 100%;
+    height: 200px;
+}
+
+  /* ------------------------------------------------------------------------------------------------------------------------------*/
+  @media(max-width: 600px) {
+    #mySidebar {
+        padding-top: 15px;
+        width: 0;
+        display: inline;
+        overflow: auto;
+    }
+    #mySidebar a {font-size: 18px;}
+    #main{
+        margin-left: 0;
+    }
+    .mapuvce iframe{
+        height: 420px;
+        width: 100%;
+        padding: 10px;
+    }
+    .gallery{
+        padding: 10px;
+        width: 80px;
+        margin: 0%;
+    }
+    .gallery1 .gallery img{
+        border: 2px solid #fff;
+        width: 100%;
+    }
+    #content-des .close2{
+        display: none;
+    }
+    .topicdiv{
+        width: 90%;
+    }
+    .sponsorship{
+        width: 100%;
+    }
+    .home1 .right1{
+        font-size: 1.0rem;
+        width: 95%;
+
+    }
+    .comingsoon img{
+        width: 90%;
+        margin:4%;
+    }
+
+}
+  @media(min-width: 600px){
+    .sidebar{
+        position: fixed;
+        
+    }
+    #content-des{
+        height: 100%;
+        z-index: 2;
+        margin-left: 250px;
+        text-align: center;
+    }
+    #mySidebar{
+        width: 200px;
+     }
+     .openbtn{
+         display: none;
+     }
+     #mySidebar .close1{
+         display: none;
+     }
+     #mySidebar a{
+         font-size: 3vh;
+     }
+     
+     #main{
+        margin-left: 200px;
+    }
+    .sidebaranimationreverse{
+        -webkit-animation-name: example1 ; 
+        -webkit-animation-duration: 2s; 
+        -webkit-animation-fill-mode: forwards;
+        animation-name: example1;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+    }
+    @-webkit-keyframes example1 {
+        from {width:100%; }
+        to {width: 200px;}
+      }
+      
+      /* Standard syntax */
+      @keyframes example1 {
+        from {width:100%; }
+        to {width: 200px;}
+      }
+    .sidebaranimation{
+       
+        -webkit-animation-name: example ; 
+        -webkit-animation-duration: 4s; 
+        -webkit-animation-fill-mode: forwards;
+        animation-name: example;
+        animation-duration: 4s;
+        animation-fill-mode: forwards;
+    }
+    @-webkit-keyframes example {
+      from {width:200px; }
+      to {width: 100%;}
+    }
+    
+    /* Standard syntax */
+    @keyframes example {
+        from {width:200px; }
+        to {width: 100%;}
+    }
+    
+    .contact{
+        display: flex;
+        width: 100%;
+    }
+    .mapuvce iframe{
+        height: 420px;
+        width: 700px;
+    }
+    .topicdiv{
+        width: 160%;
+    }
+    .sponsorship{
+        width: 150%;
+    }
+    .home1 .right1{
+        font-size: 1.5rem;
+    }
+    .kagada2018{
+        width: 110%;
+    }
+  }
