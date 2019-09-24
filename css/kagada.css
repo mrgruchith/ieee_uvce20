@@ -3,6 +3,7 @@ html,body{
     font-family: "Lato", sans-serif;
     background-color: black;
     background: black;
+    overflow-y: hidden;
   }
 /*----------------------------------------------*/
   
@@ -385,8 +386,7 @@ div.gallery img {
 .kagadahead{
     animation-fill-mode: both;
 }
-.kagada-head{background-color:#f15b15;
-}
+.kagada-head{background-color:#f15b15 }
 .kagadahead h3{
     font-size: 8vh;
     text-align: center;
@@ -400,7 +400,7 @@ div.gallery img {
     background: -webkit-linear-gradient(left, #f15b15 0%, white 50%, #f15b15 100%);
     background: linear-gradient(left, #f15b15 0%, white 50%, #f15b15 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000', GradientType=0);
-    padding: 10px;
+    padding: 20px;
 }
 .home1{
     background-image: url("../img/back/1.jpg");
@@ -413,7 +413,6 @@ div.gallery img {
     padding-top: 20px;
     padding-bottom: 20px;
     align-items: center;
-    height: 200px;
     
 }
 .home1 .left1, .home1 .right1{
@@ -439,7 +438,7 @@ div.gallery img {
     font-size: 12vh;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    padding-top: 10px;
+    padding-top: 40px;
     color:whitesmoke;
     
 }
@@ -455,13 +454,14 @@ div.gallery img {
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     opacity: 0.93;
+    /* margin-top: -3%; */
     text-align: justify;
     width: 60ch;
     border: 1px solid;
     border-color: #f15b15;
     background-color: #f15b15;
     border-radius: 10px;
-    margin: -4% 2%;
+    margin: 4% 2%;
     margin-bottom: 0%;
     padding: 20px;
     left: 500px;
@@ -469,7 +469,6 @@ div.gallery img {
 }
 .right1{
     float: right;
-    margin-top: -10%;
 }
 
 
@@ -481,7 +480,7 @@ div.gallery img {
     font-size: 10vh;
     color: whitesmoke;
     font-family: 'Courier New', Courier, monospace;
-    margin: 0% auto 2%;
+    margin: 4% auto ;
     text-align: center;
     font-weight: bold;
     padding: 10px;
@@ -515,12 +514,11 @@ div.sticky{
     background: black;
     z-index: 2;
     padding: 1px;
-
+    
 }
 div.sticky h2{
     font-size: 9vh;
     font-weight: bold;
-    text-decoration: none;
 }
 
 
@@ -529,10 +527,11 @@ div.sticky h2{
 /* coming soon */
 .comingsoon{
     box-shadow: white;
-    text-align: center;
 }
 .comingsoon img{
-    /* margin: 3% 15%; */    
+    margin: 3% 22%;
+    /* padding: 10px; */
+    
     /* width: 100px; */
     opacity: 0.8;
 
@@ -559,11 +558,9 @@ div.sticky h2{
 /*----------------------------------------------------------------------------------------------------------------------------------*/
 .numbers{
     margin: 0% 5%;
-    padding: 1% 2%;
+    padding: 5px 50px;
     color: white;
-    /* width: 100ch; */
-    /* width: 500px; */
-    /* height: 500px; */
+    /* width: 100%; */
     font-family: 'Times New Roman', Times, serif;
     background-color: #f15b15;
     border-radius: 5px;
@@ -637,9 +634,6 @@ div.sticky h2{
         width: 90%;
         margin:4%;
     }
-    .comingsoon{
-        text-align: center;
-    }
 
 }
   @media(min-width: 600px){
@@ -712,19 +706,19 @@ div.sticky h2{
         width: 100%;
     }
     .mapuvce iframe{
-        height: 500px;
-        width: 500px;
+        height: 420px;
+        width: 700px;
     }
     .topicdiv{
-        width: 160%;
+        width: 90%;
     }
     .sponsorship{
-        width: 150%;
+        width: 90%;
     }
     .home1 .right1{
         font-size: 1.5rem;
     }
     .kagada2018{
-        width: 110%;
+        width: 90%;
     }
   }
