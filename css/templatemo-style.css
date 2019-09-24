@@ -444,6 +444,7 @@
   .about-info .section-title {
     padding-bottom: 20px;
   }
+<<<<<<< HEAD
 
   .about-image {
     position: absolute;
@@ -451,6 +452,15 @@
 
 
 
+=======
+
+  .about-image {
+    position: absolute;
+  }
+
+
+
+>>>>>>> 75b77386aad7f6c43eefa645feafc57082030fb5
   /*---------------------------------------
       TEAM              
   -----------------------------------------*/
@@ -517,6 +527,7 @@
     -moz-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
   }
+<<<<<<< HEAD
 
   .team-item h4 {
     color: #ffffff;
@@ -533,6 +544,24 @@
 
 
 
+=======
+
+  .team-item h4 {
+    color: #ffffff;
+  }
+
+  .team-info p {
+    color: #bfbdbd;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 5px;
+  }
+
+
+
+>>>>>>> 75b77386aad7f6c43eefa645feafc57082030fb5
   /*---------------------------------------
      MENU              
   -----------------------------------------*/
@@ -623,12 +652,21 @@
     transform: translateY(0px);
     opacity: 1;
   }
+<<<<<<< HEAD
 
   .menu-thumb:hover .menu-info {
     background: rgba(0,0,0,0.8);
   }
 
 
+=======
+
+  .menu-thumb:hover .menu-info {
+    background: rgba(0,0,0,0.8);
+  }
+
+
+>>>>>>> 75b77386aad7f6c43eefa645feafc57082030fb5
   /*---------------------------------------
       GALLERY         
   -----------------------------------------*/
@@ -1186,7 +1224,17 @@
     height:200px;
     width:100%;
   }
+<<<<<<< HEAD
 
+=======
+
+}
+
+
+
+.service-title1{
+  text-align: justify;
+>>>>>>> 75b77386aad7f6c43eefa645feafc57082030fb5
 }
 
 
