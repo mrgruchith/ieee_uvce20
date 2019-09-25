@@ -175,12 +175,16 @@ html,body{
     font-weight: bold;
     width: 150px;
     height: 150px;
-    font-size: 28px;
+    font-size: 20px;
     margin: 0%;
     align-content: center;
     text-align: center;
     padding: 20px;
 }
+.home2 .cardhead h2{
+    font-size: 25px;
+}
+
 .home2 .cardpart {
     color: white;
     background-color : #f15b15;
@@ -481,15 +485,14 @@ div.gallery img {
     font-size: 10vh;
     color: whitesmoke;
     font-family: 'Courier New', Courier, monospace;
-    margin: 4% auto ;
+    /* margin: 4% auto ; */
     text-align: center;
     font-weight: bold;
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 .dates {
     font-family: 'Cormorant Garamond', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 5vh;
     color: rgb(190, 220, 240);
     display: flex;
     flex-direction: column;
@@ -497,6 +500,7 @@ div.gallery img {
     justify-content: center;
     margin: -2% auto 5%;
     text-align: center;
+    padding: 10px;
 }
 .dates h3 {
     margin: 1% auto;
@@ -559,7 +563,7 @@ div.sticky h2{
 /*----------------------------------------------------------------------------------------------------------------------------------*/
 .numbers{
     margin: 0% 5%;
-    padding: 5px 50px;
+    padding: 10px;
     color: white;
     /* width: 100%; */
     font-family: 'Times New Roman', Times, serif;
@@ -634,6 +638,10 @@ div.sticky h2{
     .comingsoon img{
         width: 90%;
         margin:4%;
+    }
+    .dates h3{
+        font-size: 3vh;
+        padding: 5px;
     }
 
 }
@@ -721,5 +729,8 @@ div.sticky h2{
     }
     .kagada2018{
         width: 110%;
+    }
+    .dates{
+        font-size: 5vh;
     }
   }
