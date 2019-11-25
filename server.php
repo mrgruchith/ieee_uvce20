@@ -9,9 +9,28 @@ $errors = array();
 
 $db = mysqli_connect('us-cdbr-iron-east-05.cleardb.net', 'ba8f873b48788d', '656e0de9', 'heroku_cf0099486ad9e78');
 if($db==NULL)
-	echo("error");
+{
+	?>
+  <script>
+  alert('error while registering file');
+        window.location.href='register.php?fail';
+        </script>
+<php?
+      }
+
 
 if (isset($_POST['reg_user'])) {
+      
+      $db = mysqli_connect('us-cdbr-iron-east-05.cleardb.net', 'ba8f873b48788d', '656e0de9', 'heroku_cf0099486ad9e78');
+if($db==NULL)
+{
+	?>
+  <script>
+  alert('error while registering file');
+        window.location.href='register.php?fail';
+        </script>
+<php?
+      }
  
   $username = mysqli_real_escape_string($db, $_POST['username']);
   $email = mysqli_real_escape_string($db, $_POST['email']);
@@ -49,7 +68,7 @@ if (isset($_POST['reg_user'])) {
   	mysqli_query($db, $query);
   	$_SESSION['username'] = $username;
   	$_SESSION['success'] = "You are now logged in";
-  	header('location: index.php');
+  	header('location: register.php');
   }
 }
 
