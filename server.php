@@ -24,7 +24,7 @@ if (isset($_POST['reg_user'])) {
 	array_push($errors, "The two passwords do not match");
   }
 
-  $user_check_query = "SELECT * FROM users WHERE username='$username' OR email='$email' LIMIT 1";
+  $user_check_query = "SELECT * FROM registration WHERE username='$username' OR email='$email' LIMIT 1";
   $result = mysqli_query($db, $user_check_query);
   $user = mysqli_fetch_assoc($result);
   
@@ -67,7 +67,7 @@ if (isset($_POST['login_user'])) {
     if (count($errors) == 0) {
         //$password = md5($password);
         
-        $query = "SELECT * FROM users WHERE username='$username' AND password='$password'";
+        $query = "SELECT * FROM registration WHERE username='$username' AND password='$password'";
         $results = mysqli_query($db, $query);
         if ($username == 'ieeeuvce' && $password == 'ieeeuvce@2019')  {
           $_SESSION['username'] = $username;
