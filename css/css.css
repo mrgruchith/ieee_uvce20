@@ -256,7 +256,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     size: 40px;
     /*margin-top: 30px;*/
     text-size-adjust: 50px;
-    color: rgb(19, 192, 245);
+    color: rgb(0.0, 0.0, 0.0);;
     text-align: center;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
@@ -267,7 +267,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
   .main-title span{
     box-sizing: border-box;
-    background: rgba(128, 128, 128, 0.41);
+    background: rgb(0.0,0.0,0.0);
     width: 10%;
     height: 1px;
     display: inline-block;
@@ -377,18 +377,27 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 /*----------------------------------------------------------------------*/
 
 nav img{
-    height: 60px;
-    color: rgb(19, 192, 245);
+    height: 100px;
+    border-bottom-right-radius: 3px;
+    color: white;
     padding: 8px;
-    padding-left: 15px;
+    /* padding-left: 15px; */
+    display: block;
+    background-color: white;
+    box-shadow: 2px 2px 6px #000000;
+    
   }
 
 .navbar{
   border-radius: 0%;
+  height: 80px;
+  background-color: rgb(27, 96, 245);
+  box-shadow: 2px 2px 6px #000000;
+  
   
 }
 .navbar-default {
-  background-color:  white;
+  background-color: rgb(27, 96, 245);
   border-color: transparent;
   
 }
@@ -397,26 +406,27 @@ nav img{
   padding: 10px;
 }
 .navbar-default .navbar-nav li a{
-color:#60B0E6;
+color:white;
 text-decoration:none;
-padding:0.4em 0.9em;
+padding:0.8em 0.9em;
 display:block;
-border:1px solid #fff;
+border-radius: 3px;
 font-size:1.3em;
 font-weight:400;
 }
 
 .navbar-default .navbar-nav li a:hover,
 .navbar-default .navbar-nav li a:active{
-  border: 1px solid  #60B0E6;
-  border-radius: 2px;
-  color:  #60B0E6;
+
+  border-radius: 3px;
+  color: rgb(27, 96, 245);
+  background-color: white;
 }
 
 .navbar-default .navbar-nav li a:focus{
-  border: 1px solid  #60B0E6;
-  border-radius: 2px;
-  color:  #60B0E6;
+  border-radius: 3px;
+  color: rgb(27, 96, 245);
+  background-color: white;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -469,7 +479,7 @@ font-weight:400;
   .recent a{
     display: block;
     text-align: center;
-    color: rgba(48, 49, 49, 0.568);
+    color: rgb(0.0,0.0,0.0);
     font-style: bold;
     padding:1%;
     font-size: 150%;
@@ -496,7 +506,7 @@ font-weight:400;
   
   
   .s-descrip{
-    background-color: #60B0E6;
+    background-color: rgb(0, 0, 0.8);
     color: #f1f1f1;
     position: absolute;
     width: 100%;
@@ -551,7 +561,7 @@ font-weight:400;
     font-style: bold;
     
     text-align: center;
-    background-color: #60B0E6;
+    background-color: rgb(27, 96, 245);
     color: white;
     position: absolute;
     z-index: 1;
@@ -589,15 +599,20 @@ font-weight:400;
   width: 100%;
 }
 .gallery{
-  width: 100%;
+  
+  margin: 0%;
+  margin-left: 35%;
   height: auto;
   display: flex;
-  padding: 3%;
   align-content: center;
+  position:relative;
+  
 }
 
 .gallery h1{
   text-align: center;
+  position: center;
+  align-content: center;
 }
 .gallery div{
   padding: 20px;
@@ -620,7 +635,7 @@ font-weight:400;
   }
   
   .description{
-    background-color: #60B0E6;
+    background-color: rgba(8, 7, 7, 0.924);
     color: #f1f1f1;
     position: absolute;
     top: 0;
@@ -652,7 +667,7 @@ font-weight:400;
     font-size: 20px;
     padding: 30px;
     border-radius: 10px;
-    border: 1px solid #60B0E6;
+    border: 1px solid rgb(27, 96, 245);;
   }
 
   /*-----------------------------------*/
@@ -714,7 +729,8 @@ font-weight:400;
   }
   #foot {
   
-    background: url("../images/backfoot.jpg");
+    background-color: black;
+    background-image: linear-gradient(black,rgba(43, 42, 42, 0.952),rgb(68, 67, 67));
     padding-top: 50px;
     color: #fff;
     text-align: center;
