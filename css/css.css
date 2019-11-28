@@ -1,4 +1,10 @@
 @media (max-width:800px){
+  nav img{
+    height: 60px;
+  }
+  .navbar{
+    height: 40px;
+  }
   .img1{ 
     background-image: url("../images/cover_back_mob.jpg");
     margin: 20px;
@@ -83,6 +89,12 @@ table tbody tr td{
 }
 @media(min-width:800px)
   {
+    nav img{
+      height: 100px;
+    }
+    .navbar {
+      height: 80px;
+    }
   .img1 { background-image: url("../images/cover_back.jpg");
           image-resolution: 72dpi; 
           margin: 20px;
@@ -377,7 +389,6 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 /*----------------------------------------------------------------------*/
 
 nav img{
-    height: 100px;
     border-bottom-right-radius: 3px;
     color: white;
     padding: 8px;
@@ -390,7 +401,6 @@ nav img{
 
 .navbar{
   border-radius: 0%;
-  height: 80px;
   background-color: rgb(27, 96, 245);
   box-shadow: 2px 2px 6px #000000;
   
