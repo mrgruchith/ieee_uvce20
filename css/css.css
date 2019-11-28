@@ -50,6 +50,9 @@
 .others{
   grid-template-columns: 1fr 1fr;
 }
+.gallery{
+  margin-left:0% ;
+}
 
 .recent-list{
   
@@ -102,6 +105,9 @@ table tbody tr td{
   .ieee-content
   {
     font-size: 170%;
+  }
+  .gallery{
+    margin-left: 35%;
   }
   .sig {
     display: grid;
@@ -610,8 +616,7 @@ font-weight:400;
 }
 .gallery{
   
-  margin: 0%;
-  margin-left: 35%;
+  padding: 0%;
   height: auto;
   display: flex;
   align-content: center;
