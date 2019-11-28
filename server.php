@@ -78,7 +78,7 @@ if (isset($_POST['login_user'])) {
         elseif (mysqli_num_rows($results) == 1) {
           $_SESSION['username'] = $username;
           $_SESSION['success'] = "You are now logged in";
-          header('location: index.php');
+          header('location: loginindex.php');
         }
         else {
             array_push($errors, "Wrong username/password combination");
