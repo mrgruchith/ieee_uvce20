@@ -20,10 +20,11 @@ if(isset($_POST['btn-upload']))
  
  $final_file=str_replace(' ','-',$new_file_name);
  
- if(move_uploaded_file($file_loc,$folder.$final_file))
- {
+ 
   $sql="INSERT INTO tbl_uploads(file,type,size) VALUES('$final_file','$file_type','$new_size')";
-  mysqli_query($db,$sql);
+  $result=mysqli_query($db,$sql);
+  if(mysqli_fetch_assoc($result)==1)
+ {
   ?>
   <script>
   alert('successfully uploaded');
