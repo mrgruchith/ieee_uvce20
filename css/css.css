@@ -6,9 +6,9 @@
     height: 40px;
   }
 
-  #ieeeimage{
-
-  }
+ .navbar-nav{
+   height: 100%;
+ }
   .img1{ 
     background-image: url("../images/cover_back_mob.jpg" );
     width: 300px;
@@ -20,6 +20,7 @@
   width: 90%; 
 }
 .container{
+  padding-top: 50px;
   width: 100%;
 }
 .sig {
@@ -440,19 +441,29 @@ nav img{
   
   
 }
+.navbar-nav{
+  height: 100%;
+  z-index: 100;
+}
 .navbar-default {
   background-color: rgb(27, 96, 245);
   border-color: transparent;
   
 }
 .navbar-default .navbar-nav{
+  text-align: center;
   align-content: center;
+  height: 100%;
   padding: 10px;
+  background-color: rgb(27, 96, 245);
+  height: 100%;
+  z-index: 100;
 }
 .navbar-default .navbar-nav li a{
 color:white;
 text-decoration:none;
 padding:0.8em 0.9em;
+
 display:block;
 border-radius: 3px;
 font-size:1.3em;
@@ -480,7 +491,7 @@ font-weight:400;
     background: rgb(0, 0, 0); /* Fallback color */
     background: rgba(15, 15, 15, 0.822); /* Black background with 0.5 opacity */
     color: #f1f1f1;
-    
+    text-align: justify;
     left: 50%;
     height: fit-content;
     font-size: 2vh;
