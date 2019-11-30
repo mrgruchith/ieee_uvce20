@@ -905,11 +905,13 @@ anime.timeline({loop: true})
        
               
               new WOW().init();
-               $('.main-toggle').click(function(){
+               $('navbar-toggle').click(function(){
                    $('nav').toggleClass('active')
                 
                })
-               
+               $(".navbar-toggle").click(function () {
+                $("#myNavbar").toggle('slow');
+                });
                
           })
           $(document).ready( () => { $(".svg-wrapper").click( () => { $('.front-page').fadeOut();$('.front-page').fadeOut("slow");$('.front-page').fadeOut(2000);setTimeout( () => { $("#members").css("animation", "reverseAppear 0.7s ease-in 0s"); $("#members").css("display", "none");
