@@ -16,6 +16,7 @@
   }
   .ieee-content
 {
+  margin: 20px;
   font-size: 2vh;
   width: 90%; 
 }
@@ -63,7 +64,9 @@
 .gallery{
   margin-left:0% ;
 }
-
+.some-links{
+  font-size: 15px;
+}
 .recent-list{
   
     align-content: center;
@@ -90,6 +93,9 @@ table tbody tr td{
   -ms-flex: 50%;
     flex: 50%;
     max-width: 50%;
+}
+.title-color1{
+  font-size: 2vh;
 }
 }
 @media(max-width:400px)
@@ -119,12 +125,17 @@ table tbody tr td{
   .ieee-content
   {
     width: 40%;
+    margin: 20px;
+    margin-top: 60px;
   }
   .container{
     width: 50%;
   }
   .gallery{
     margin-left: 35%;
+  }
+  .some-links{
+    font-size: 30px;
   }
   .sig {
     display: grid;
@@ -212,6 +223,9 @@ table tbody tr td{
 
 table tbody tr td{
   font-size: 20px;
+}
+.title-color1{
+  font-size: 4vh;
 }
   }
 
@@ -496,8 +510,8 @@ font-weight:400;
     height: fit-content;
     font-size: 2vh;
     padding: 20px;
-    margin: 20px;
-    margin-top: 60px;
+    
+    
     
     
    /* text-align: justify;
@@ -724,7 +738,7 @@ font-weight:400;
  }
  .some-links p {
    text-align: center;
-   font-size: 30px;
+   
    
  }
 
@@ -865,7 +879,7 @@ font-weight:400;
     padding: 0.3em;
     font-weight: 400;
     font-family: monospace;
-   font-size: 3vh;
+   
     width: auto;
   }
   td {
