@@ -23,7 +23,7 @@
   padding-top: 50px;
   
 }
-.img2 { background-image: url("../images/Kagada19.jpg");}
+.img2 { background-image: url("../images/c-kagada19.jpg");}
 .img3 { background-image: url("../images/c-impetus.jpg"); }
 
 .s-descrip{
@@ -897,7 +897,7 @@ font-weight:400;
     grid-template-columns: 1fr 1fr;
   }
   #ieeeimage{
-    display: inline
+    display: inline;
   }
   .title-color{
     font-size: 2vh;
