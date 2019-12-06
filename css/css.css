@@ -924,6 +924,8 @@ font-weight:400;
   padding-top: 50px;
   width: 100%;
 }
-
+.fests .fest-image .description{
+  font-size: 3.5vh;
+}
 }
 
