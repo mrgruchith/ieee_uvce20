@@ -14,16 +14,7 @@
     width: 300px;
     margin: 20px;
   }
-  .ieee-content
-{
-  margin: 20px;
-  font-size: 2vh;
-  width: 90%; 
-}
-.container{
-  padding-top: 50px;
-  width: 100%;
-}
+
 .sig {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -126,15 +117,8 @@ table tbody tr td{
           image-resolution: 72dpi; 
           margin: 20px;
         }
-  .ieee-content
-  {
-    width: 40%;
-    margin: 20px;
-    margin-top: 60px;
-  }
-  .container{
-    width: 50%;
-  }
+  
+  
   .gallery{
     margin-left: 35%;
   }
@@ -300,6 +284,16 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.ieee-content
+{
+  margin: 20px;
+  font-size: 2vh;
+  width: 90%; 
+}
+.container{
+  padding-top: 50px;
+  width: 100%;
 }
 
 #ieeeimage{
@@ -908,5 +902,26 @@ font-weight:400;
   .title-color{
     font-size: 2vh;
   }
+  .ieee-content
+{
+  margin: 20px;
+  font-size: 2vh;
+  width: 90%; 
+}
+.container{
+  padding-top: 50px;
+  width: 100%;
+}
 
+}
+@media(min-width:800px){
+  .container{
+    width: 50%;
+  }
+  .ieee-content
+  {
+    width: 40%;
+    margin: 20px;
+    margin-top: 60px;
+  }
 }
