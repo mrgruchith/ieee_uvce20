@@ -21,7 +21,9 @@
         <link rel="stylesheet" href="css/bootstrap.css">
          <link rel="stylesheet" href="css/lap.css">
          <link rel="stylesheet" href="css/mobile.css">
+         <link rel="stylesheet" href="css2.css">
          <link rel="stylesheet" href="css/css.css">
+         
         <script src="wow.min.js"></script>
         <link rel="stylesheet" href="css/wow.css">
         <script src="js/smoothscroll.js"></script>
@@ -72,7 +74,7 @@
                 <li><a href="#" onclick="membersAppear()" >Team</a></li>
                 <li><a href="#" onclick="galleryon()" >Gallery</a></li>
                 <li ><a href="https://docs.google.com/forms/d/e/1FAIpQLSdt20fOfaw5FY0DKVhBp6WdOCOLhPQhR1TmRH6o1bdlBaGKOw/viewform?usp=sf_link">Events Register</a></li>
-                <li ><a href="/login.php" >Login</a></li>
+                <li ><a href="#" onclick="formAppear()">Login</a></li>
             </ul>
           </div>
         </div>
@@ -133,7 +135,7 @@
             <div class="ieee-content">
                 <h1 class="ieee-title wow slideInRight" data-wow-duration="2s" data-wow-delay="0s">IEEE UVCE</h1>
                 <hr>
-                <p class="content wow slideInUp" data-wow-duration="2s" data-wow-delay="0s">IEEE Student Branch of UVCE endeavors to enhance the 
+                <p class="content1 wow slideInUp" data-wow-duration="2s" data-wow-delay="0s">IEEE Student Branch of UVCE endeavors to enhance the 
                     learning experience of the student community on the UVCE campus. 
                     The Student Branch intends on providing different social, cultural and technical events for the students throughout the year. 
                     We encourage the students to take full advantage of the benefits of IEEE membership, including scholarships, competitions, 
@@ -517,6 +519,36 @@
         </div>
 
         
+<!-- ----------------------------------------------------------------------------------------- -->
+
+<div class="form1" id="forms">
+        <i class="fa fa-times fa-4x " aria-hidden="true" style="color: white; left:0%;" onclick="formHide()"></i>
+    <div class="header">
+        <h2>Login</h2>
+    </div>
+       
+    <form method="post" action="login.php">
+        <?php include('errors.php'); ?>
+        <div class="input-group">
+            <label>Username</label>
+            <input type="text" name="username" >
+        </div>
+        <div class="input-group">
+            <label>Password</label>
+            <input type="password" name="password">
+        </div>
+        <div class="input-group">
+            <button type="submit" class="btn" name="login_user">Login</button>
+        </div>
+        <!-- <p>
+            Not yet a member? <a href="register.php">Sign up</a>
+        </p> -->
+        <a href="forgotpassword.php">Forgot Your Password</a>
+    </form>
+  </div>
+  
+<!-- -------------------------------------------------------------------------------------------------- -->
+
    <!------------------------------------------->
     <div class="contact" id="foot">
             <div class="alignEnd">
@@ -553,6 +585,7 @@
                 </div>
             </div>
             <br>
+
             <div class="icon-arrange">
                 <a href="https://www.facebook.com/ieeeuvce/" data-toggle="tooltip" title="Facebook">
                     <i class="fa fa-facebook icon wow fadeInUpBig" data-wow-duration="0.3s"></i>
@@ -919,9 +952,11 @@
                     </div>
                 </div>
             
+                
         
 
     </body>
+
 
     <!--------------------------------------------------------------------------->
     <script>
@@ -962,7 +997,7 @@ anime.timeline({loop: true})
        <script type="text/javascript">
        
        $("#topnav").hide(); $("#ieeeimage").hide(); $("#recent-activities").hide(); $("#sig-box").hide(); $(".some-links").hide();
-       $("#fest-box").hide(); $("#awards-box").hide(); $("#teachers").hide();$("#foot").hide();$(".gallery").hide();
+       $("#fest-box").hide(); $("#awards-box").hide(); $("#teachers").hide();$("#foot").hide();$(".gallery").hide();$("#forms").hide();
        
           $(document).ready(function(){
        
@@ -978,7 +1013,7 @@ anime.timeline({loop: true})
                
           })
           $(document).ready( () => { $(".svg-wrapper").click( () => { $('.front-page').fadeOut();$('.front-page').fadeOut("slow");$('.front-page').fadeOut(2000);setTimeout( () => { $("#members").css("animation", "reverseAppear 0.7s ease-in 0s"); $("#members").css("display", "none");
-          $("#topnav").show(); $("#ieeeimage").show(); $("#sig-box").show(); $("#fest-box").show(); $("#awards-box").show(); $("#teachers").show();$("#foot").show();$("#recent-activities").show();$(".gallery").show();
+          $("#topnav").show(); $("#ieeeimage").show(); $("#sig-box").show(); $("#fest-box").show(); $("#awards-box").show(); $("#teachers").show();$("#foot").show();$("#recent-activities").show();$(".gallery").show();$("#forms").hide();
            $("#foot").show(); $(".some-links").show(); new
     WOW().init(); }, 500); }); });        
           function membersAppear(){ $("#topnav").hide(); $("#ieeeimage").hide(); $("#recent-activities").hide(); $("#sig-box").hide();$('.front-page').hide();$(".gallery").hide(); $(".some-links").hide();
@@ -1019,6 +1054,12 @@ anime.timeline({loop: true})
                function galleryoff(){
                     document.getElementById("gallerydisplay").style.display="none";
                }
+               function formAppear(){
+                   document.getElementById("forms").style.display="block";
+               }
+               function formHide(){
+                    document.getElementById("forms").style.display="none";
+                }
            </script>
        
 </html>
