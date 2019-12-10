@@ -2,6 +2,7 @@
   nav img{
     height: 50px;
   }
+
   .navbar{
     height: 40px;
   }
@@ -9,6 +10,7 @@
  .navbar-nav{
    height: 100%;
  }
+
   .img1{ 
     background-image: url("../images/cover_back_mob.jpg" );
     width: 300px;
@@ -21,7 +23,6 @@
   grid-auto-rows: 230px;
   grid-gap: 1em;
   padding-top: 50px;
-  
 }
 .img2 { background-image: url("../images/c-kagada19.jpg");}
 .img3 { background-image: url("../images/c-impetus.jpg"); }
@@ -35,6 +36,7 @@
   font-size: 100%;
   padding-top: 3%;
 }
+
 .fest-image{
   padding:10px; 
   float: unset;
@@ -440,23 +442,18 @@ body{
 }
 
 nav img{
-
     color: white;
     padding: 4px;
     /* padding-left: 15px; */
     display: block;
-  
-   
-    
   }
 
 .navbar{
   border-radius: 0%;
   background-color: rgb(27, 96, 245);
   box-shadow: 2px 2px 6px #000000;
-  
-  
 }
+
 .navbar-nav{
   height: 100%;
   z-index: 100;
@@ -864,13 +861,13 @@ font-weight:400;
   }
   tr{
     /*width: 100%;*/
-
   }
   
   table {
   width: 100%;
   border-collapse: collapse;
   }
+
   .title-color {
     background-color: black;
     color: #fff;
@@ -917,25 +914,30 @@ font-weight:400;
   .others{
     grid-template-columns: 1fr 1fr;
   }
+
   #ieeeimage{
     display: inline;
-    
   }
+
   .title-color{
     font-size: 2vh;
   }
+
   .ieee-content
 {
   margin: 20px;
   font-size: 2vh;
   width: 95%; 
 }
+
 .container{
   padding-top: 50px;
   width: 100%;
 }
+
 .fests .fest-image .description{
   font-size: 3.5vh;
 }
+
 }
 
