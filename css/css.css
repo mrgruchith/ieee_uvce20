@@ -207,7 +207,7 @@ table tbody tr td{
 
   .rimage{
     
-    background-image: url("../images/coll2.jpg");
+    background-image: url("../images/ieeebanner1.jpg");
     width: 500px;
     height: 280px;
   }
@@ -304,10 +304,11 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 #ieeeimage{
   width: 100%;
   vertical-align: center;
-  background-color: #2c343f;
+  background:url("../images/back.gif");
   padding: 30px;
   margin-top: 2%;
   align-content: center;
+  height: fit-content;
 }
 
   .main-title{
@@ -443,7 +444,7 @@ body{
 
 nav img{
     color: white;
-    padding: 4px;
+    /* padding: 4px; */
     /* padding-left: 15px; */
     display: block;
   }
@@ -466,7 +467,9 @@ nav img{
 .navbar-default .navbar-nav{
   text-align: center;
   align-content: center;
+  margin: 0%;
   height: 100%;
+  padding: 0%;
   padding: 10px;
   background-color: rgb(27, 96, 245);
   height: 100%;
@@ -482,7 +485,9 @@ border-radius: 3px;
 font-size:1.3em;
 font-weight:400;
 }
-
+.nav .navbar-nav .navbar-right{
+  align-self: center;
+}
 .navbar-default .navbar-nav li a:hover,
 .navbar-default .navbar-nav li a:active{
 
@@ -502,7 +507,7 @@ font-weight:400;
     
     /* bottom: 0;
     background: rgb(0, 0, 0); /* Fallback color */
-    background: rgba(15, 15, 15, 0.822); /* Black background with 0.5 opacity */
+    background: rgb(0, 0, 0); /* Black background with 0.5 opacity */
     color: #f1f1f1;
     text-align: justify;
     left: 50%;
@@ -895,10 +900,17 @@ font-weight:400;
   .title-color{
     font-size: 3vh;
   }
+  #ieeeimage{
+    padding: 0%;
+  }
+  .awards{
+    background-image: url("../images/ieeeawardsmob.jpg");
+    height: 300px;
+  }
 }
 @media(min-width:800px){
   .container{
-    width: 60%;
+    width: 80%;
   }
   .ieee-content
   {
@@ -909,10 +921,16 @@ font-weight:400;
     font-size: 2.5vh;
     /* vertical-align: center; */
   }
+  .awards{
+    background-image: url("../images/ieeeawards.jpg");
+  }
 }
 @media (min-width: 800px) and (max-width: 1100px){
   .others{
     grid-template-columns: 1fr 1fr;
+  }
+  .awards{
+    background-image: url("../images/ieeeawards.jpg");
   }
 
   #ieeeimage{
@@ -941,3 +959,4 @@ font-weight:400;
 
 }
 
+/* ------------------------------ */
