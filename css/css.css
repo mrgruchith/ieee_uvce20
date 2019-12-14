@@ -122,7 +122,7 @@ table tbody tr td{
   .gallery{
     margin-left: 35%;
   }
-  .some-links{
+  .some-links p a{ 
     font-size: 4vh;
   }
   .sig {
@@ -515,7 +515,8 @@ font-weight:400;
     height: fit-content;
     font-size: 2vh;
     padding: 20px;
-    t
+    align-self: center;
+    
     
     
     
@@ -546,6 +547,8 @@ font-weight:400;
   }
   .ieee-title{
     font-size: 5vh;
+    margin: 0%;
+    padding: 5px;
   }
   
   @-webkit-keyframes ieeeback{
@@ -743,14 +746,12 @@ font-weight:400;
    width: 100%;
 
  }
- .some-links p {
+ .some-links p a{
    text-align: center;
    font-size: 4vh;
    
  }
- .some-links h1{
-   font-size: 6vh;
- }
+
 
    .awards-recognition{
     padding: 20px;
@@ -942,8 +943,8 @@ font-weight:400;
   }
 
   #ieeeimage{
-    
-    margin: 0%;
+  
+    margin-top: 40px;
     padding: 0%;
   }
 
@@ -954,7 +955,7 @@ font-weight:400;
   .ieee-content
 {
   margin: 20px;
-  font-size: 2vh;
+  font-size: 14px;
   width: 95%; 
 }
 
@@ -966,7 +967,12 @@ font-weight:400;
 .fests .fest-image .description{
   font-size: 3.0vh;
 }
-
+.recent a{
+  font-size: 30px;
+}
+.some-links p a{
+  font-size: 30px;
+}
 }
 
 /* ------------------------------ */
