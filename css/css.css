@@ -777,6 +777,7 @@ font-weight:400;
     height: fit-content;
     padding: 20px;
     overflow: hidden;
+    align-self: center;
   }
   
  
@@ -802,9 +803,11 @@ font-weight:400;
    display: grid;
    grid-auto-columns: 250px; 
    grid-gap: 1em;
+   align-self:center;
  }
  .staff-madam .person{
    border-top: 20px;
+   align-self: center;
  }
 
  /*------------------------------------------*/
@@ -947,6 +950,11 @@ font-weight:400;
     margin-top: 40px;
     padding: 0%;
   }
+  .s-descrip{
+    
+    font-size: 10px;
+    
+  }
 
   .title-color{
     font-size: 2vh;
@@ -968,7 +976,7 @@ font-weight:400;
 }
 
 .fests .fest-image .description{
-  font-size: 3.0vh;
+  font-size: 20px;
 }
 .recent a{
   font-size: 30px;
