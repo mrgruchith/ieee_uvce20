@@ -515,7 +515,7 @@
         <h2>Login</h2>
     </div>
        
-    <form method="post" action="indexmain.php/login">
+    <form method="post" action="indexmain.php#/login">
         <?php include('errors.php'); ?>
         <div class="input-group">
             <label>Username</label>
