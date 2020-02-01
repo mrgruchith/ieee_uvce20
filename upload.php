@@ -20,7 +20,7 @@ if(isset($_POST['btn-upload']))
  
  $final_file=str_replace(' ','-',$new_file_name);
  
- if(move_uploaded_file($tmp_name,$folder.$final_file))
+ if(move_uploaded_file($final_loc,$folder.$final_file))
  {
   $sql="INSERT INTO tbl_uploads(file,type,size) VALUES('$final_file','$file_type','$new_size')";
   mysqli_query($db,$sql);
