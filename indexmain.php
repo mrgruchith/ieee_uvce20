@@ -25,9 +25,10 @@
          <link rel="stylesheet" href="css2.css">
          <link rel="stylesheet" href="css/css.css">
          
-        <script src="wow.min.js"></script>
+        <script src="js/wow.min.js"></script>
         <link rel="stylesheet" href="css/wow.css">
         <script src="js/smoothscroll.js"></script>
+        <script src="googlepay.js"></script>
         
     </head>
 
@@ -74,7 +75,7 @@
                 <li ><a href="#awards-box" >Awards</a></li>
                 <li><a href="#" onclick="membersAppear()" >Team</a></li>
                 <li><a href="#" onclick="galleryon()" >Gallery</a></li>
-                <li ><a href="https://docs.google.com/forms/d/e/1FAIpQLSdt20fOfaw5FY0DKVhBp6WdOCOLhPQhR1TmRH6o1bdlBaGKOw/viewform?usp=sf_link">Events Register</a></li>
+                <li ><a href="https://docs.google.com/forms/d/e/1FAIpQLSdt20fOfaw5FY0DKVhBp6WdOCOLhPQhR1TmRH6o1bdlBaGKOw/viewform?usp=sf_link" target="_blank">Events Register</a></li>
                 <li ><a href="#" onclick="formAppear()">Login</a></li>
             </ul>
           </div>
@@ -158,12 +159,16 @@
                        <div class="recent-list">
                         <a class="wow lightSpeedIn" data-wow-duration="2s" data-wow-delay="0s" href="kagada.html">KAGADA 2019</a>
                         <a class="wow lightSpeedIn" data-wow-duration="2s" data-wow-delay="0s" href="codefury2.html">CODEFURY 2.0</a>
-                        <a class="wow lightSpeedIn" data-wow-duration="2s" data-wow-delay="0s" href="http://www.impetus19.com">IMPETUS 19.0</a>
+                        <a class="wow lightSpeedIn" data-wow-duration="2s" data-wow-delay="0s" href="http://www.impetus20.com">IMPETUS 20.0</a>
                         <a class="wow lightSpeedIn" data-wow-duration="2s" data-wow-delay="0s" href="https://www.facebook.com/118703741475408/posts/2199102803435481/">Project Run </a>
                     </div>
                     </div>
                 </div>
             </div>
+            <div id="container1"></div>
+<script async
+  src="https://pay.google.com/gp/p/js/pay.js"
+  onload="onGooglePayLoaded()"></script>
         </div>
 
         <!------------------sigs----------------------------->
@@ -197,7 +202,7 @@
                                 all students interested in computers and 
                                 studying from 1st year to the final year. It
                                 conducts a monthly coding
-                                contes called Ncode  along with
+                                contest called Ncode  along with
                                 Workshops on
                                 C,
                                 Python,
@@ -260,9 +265,9 @@
                         </div>
                     </div>
                     <div class="sig-image img-robotics wow bounceIn animated" data-wow-delay="1.0s" style="visibility: visible; animation-delay: 0.4s; animation-name: bounceIn;">
-                        <div class="title"><h1>ROBOTICS</h1></div>
+                        <div class="title"><h1>YANTRIK</h1></div>
                         <div class="s-descrip">
-                                The Robotics Club started
+                                The Yantrik Club started
                                 in the year 2009. The formation
                                 of this club seemed inevitable
                                 since no aspect of life is
@@ -314,11 +319,10 @@
                                 innovations in a clear and efficient way.
                         </div>
                     </div>
-                    <div class="sig-image img-tisp wow bounceIn animated" data-wow-delay="1.0" style="visibility: visible; animation-delay: 0.4s; animation-name: bounceIn;">
-                        <div class="title"><h1>TISP AND STAR</h1></div>
+                    <div class="sig-image img-sight wow bounceIn animated" data-wow-delay="1.0" style="visibility: visible; animation-delay: 0.4s; animation-name: bounceIn;">
+                        <div class="title"><h1>SIGHT</h1></div>
                         <div class="s-descrip">
-                            TISP (Teacher in Service Program) and STAR (Student And Teacher Research Program) aim at the improvement in delivery of knowledge.
-                            By conducting various workshops for teachers as well as students, these two sigs work to improve the teaching methods adopted.
+                        SIGHT(Special Interest Group for Humanitarian Technology) is an ensemble in IEEE that focuses on projects that are beneficial to the society. It gives enthusiastic groups  of engineers a platform to reach out to different sectors of people in different walks of life, thereby changing lives one at a time towards their better future by solving their everyday problems by providing a technology based solution.
                         </div>
                     </div>
                     
@@ -338,7 +342,7 @@
                         <!-- <div class="bg-image img3"></div> -->
                         <img src="images/impetus.jpg" alt="" style="width: 100%;">
                         <ul class="description">
-                            <li><a href = "http://www.impetus19.com">Impetus</a> is an Annual National level technical fest conducted by IEEE UVCE.</li>
+                            <li><a href = "http://www.impetus20.com">Impetus</a> is an Annual National level technical fest conducted by IEEE UVCE.</li>
                             <li>The fest is preceded by curtain raisers which include workshops, seminars and fun events.</li>
                             <li> It is based on different innovative themes every year and sees a footfall of about 1000 students from all over the state.</li>
                             <li>About 20 events are conducted among which Summit, Mock placements, Lazer Tag and Codestorm attract most crowd.</li>
@@ -364,14 +368,14 @@
             </div>
                 <br>
                 <p>
-                    <a href="https://wieconece.org/" target = "_blank"o>WIE 2019</a> &nbsp;|&nbsp;
+                    <a href="https://wieconece.org/" target = "_blank"o>WIECON 2019</a> &nbsp;|&nbsp;
                     <a href="https://ieeextreme.org/" target = "_blank"o>IEEE XTREME</a> &nbsp;|&nbsp;
                     <a href="https://spectrum.ieee.org/" target = "_blank"o>IEEE Spectrum</a> <br>
                     <a href="https://ieeexplore.ieee.org/" target = "_blank"o>IEEE Xplore</a>&nbsp;|&nbsp;
                     <a href="https://ieee-collabratec.ieee.org/" target = "_blank"o>IEEE Collabratec</a>&nbsp;|&nbsp;
                     <a href="https://www.ieee.org/about/news/index.html" target = "_blank"o>IEEE Newsroom</a>  <br>
-                    <a href="https://www.standardsuniversity.org/" target = "_blank"o>IEEE Standard University</a> &nbsp;|&nbsp;
-                    <a href="https://www.ieee.org/education/certificates/index.html" target = "_blank"o>IEEE Certificate Program</a> &nbsp;|&nbsp;
+                    <a href="https://www.standardsuniversity.org/" target = "_blank"o>IEEE Standards University</a> &nbsp;|&nbsp;
+                    <a href="https://www.ieee.org/education/certificates/index.html" target = "_blank"o>IEEE Certificates Program</a> &nbsp;|&nbsp;
                     <a href="https://www.computer.org/" target = "_blank"o>Computer Society</a>  <br>
                     <a href="https://www.ieeer10.org/" target = "_blank"> Region 10 </a> &nbsp;|  &nbsp;
                     <a href="https://sites.ieee.org/indiacouncil/" target = "_blank"> India Council </a> &nbsp;|  &nbsp;
@@ -515,7 +519,7 @@
         <h2>Login</h2>
     </div>
        
-    <form method="post" action="indexmain.php#/login">
+    <form method="post" action="indexmain.php/login">
         <?php include('errors.php'); ?>
         <div class="input-group">
             <label>Username</label>
